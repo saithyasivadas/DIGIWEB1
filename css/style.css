@@ -60,7 +60,8 @@ body a:focus {
 }
 
 .header-agileinfo {
-    background: url(../images/bg.jpg) no-repeat center;
+   /* background: url(../images/bg.jpg) no-repeat center;*/
+   background-color: black;
     background-size: cover;
     min-height: 730px;
 }
@@ -212,12 +213,21 @@ span.icon {
 }
 
 h2.bnrtext {
-    color: #fff;
+    color: #F0353D;
     font-size: 3em;
     float: left;
     height: 50px;
     font: 300 40px/50px 'Barlow Condensed';
     width: 100px;
+}
+
+.redco{
+    color: #F0353D; 
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+.org{
+    color: #FD6A33;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
 }
 
 b {
@@ -229,12 +239,13 @@ b {
 
 span.span1 {
     display: inline-block;
-    width: 270px;
+    width:300px;
     color: #fff;
     position: relative;
     white-space: nowrap;
     text-transform: uppercase;
     font: normal 40px/50px Barlow Condensed, sans-serif;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
     font-weight: 600;
     top: 0;
     left: 0;
@@ -551,6 +562,11 @@ figcaption.port-gird-caption-agileits_w3layouts:hover {
     width: 25.55%;
 }
 
+.fa-lg {
+  font-size: 1.33333333em;
+  line-height: 0.75em;
+  vertical-align: -15%;
+}
 .filtr-container {
     width: 100%;
 }
@@ -2084,7 +2100,7 @@ span.icon_g_plus {
         font-size: 1.8em;
     }
     .filtr-item,
-    .filtr-item:nth-child(8),
+    .filtr-item:nth-child(4),
     .filtr-item:nth-child(8) {
         float: left;
         width: 50%;
